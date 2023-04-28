@@ -1,13 +1,14 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
     <footer className="divide-y bg-gray-100 px-4 text-gray-800">
       <div className="container mx-auto flex flex-col justify-between space-y-8 py-10 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
-          <a
+          <Link
             rel="noopener noreferrer"
-            href="#"
+            href="/"
             className="flex justify-center space-x-3 lg:justify-start"
           >
             <div className="relative">
@@ -19,7 +20,7 @@ export default function Footer() {
                 className="object-contai h-16 w-fit"
               />
             </div>
-          </a>
+          </Link>
         </div>
         <div className="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 lg:w-2/3">
           <div className="space-y-3">
