@@ -21,7 +21,7 @@ This project serves as a demonstration on how to capture and store logs generate
 1. Clone the repository:
 
 ```
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/FajarMaftuhFadli/Demo-Logging-Node.js-Web-App-on-Cloud-Run.git
 ```
 
 2. Build the Docker image:
@@ -44,13 +44,13 @@ http://localhost:3000
 
 ## Deployment
 
-This application is deployed on Google Cloud Run. To deploy this application on Google Cloud Run, follow the steps below:
-
 Requirment:
 
 - Google Cloud SDK
 - Login to GCP Account
 - Setup the default project
+
+This application is deployed on Google Cloud Run. To deploy this application on Google Cloud Run, follow the steps below:
 
 1. Build the image in the Cloud Build:
 
